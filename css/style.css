@@ -539,6 +539,8 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -5053,8 +5055,9 @@ a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #1c1e22;
   border-radius: 0.3rem;
-  background-image: url(../images/bandeau.jpg);
+  background-image: url(../images/bandeau3.jpg);
   background-position: center;
+  color: ivory;
 }
 
 .jumbotron-little {
@@ -10435,4 +10438,10 @@ legend {
   font-size: 0.8rem;
   line-height: inherit;
   white-space: nowrap;
+}
+
+.cards-column-3 {
+  float: left;
+  width: 33%;
+  padding: 0 40px;
 }
