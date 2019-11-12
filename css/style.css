@@ -5055,9 +5055,14 @@ a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #1c1e22;
   border-radius: 0.3rem;
-  background-image: url(../images/bandeau3.jpg);
+  background-image: url(../images/bandeau2.jpg);
   background-position: center;
-  color: ivory;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  color: #ebb734;
+  text-shadow: black 10px 7px 7px;
+
 }
 
 .jumbotron-little {
@@ -5065,7 +5070,10 @@ a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #1c1e22;
   border-radius: 0.3rem;
-  background-image: url(img/jumbotron.jpg);
+  width: 100%;
+  height: 225px;
+  background-image: url(../images/bandeau.jpg);
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 576px) {
@@ -10449,4 +10457,8 @@ legend {
 .title-index h1 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.title-index a {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
